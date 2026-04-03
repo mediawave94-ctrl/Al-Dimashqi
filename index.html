@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Dimashqi | Authentic Syrian Cuisine</title>
+  <meta name="description" content="Experience the authentic tastes of Damascus at Al Dimashqi Restaurant in Abu Dhabi. Home of the finest Syrian cuisine." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Al Dimashqi</a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="controls">
+        <button id="themeToggle" class="control-btn" aria-label="Toggle Dark Mode">🌓</button>
+        <button id="langToggle" class="control-btn" aria-label="Toggle RTL">AR</button>
+        <button id="menuBtn" class="menu-toggle">☰</button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Experience True Syrian Flavors</h1>
+        <p>Taste the rich traditions and exquisite aromas of historic Damascus, beautifully crafted for your table.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="menu.html" class="btn-primary">Explore Our Menu</a>
+          <a href="about.html" class="btn-secondary" style="border-color: white; color: white;">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="section-padding bg-light">
+      <h2 class="section-title">Chef's Recommendations</h2>
+      <div class="grid-cards">
+        <div class="menu-card fade-in-up" style="animation-delay: 0.1s;" onclick="window.location.href='menu.html'">
+          <div class="menu-card-img">
+            <img src="assets/hummus-500x375.jpg" alt="Creamy Hummus" />
+          </div>
+          <div class="menu-card-content">
+            <h3 class="menu-card-title serif-text">Authentic Hummus</h3>
+            <p class="menu-card-desc">Creamy chickpea blend with tahini, lemon juice, and premium virgin olive oil.</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in-up" style="animation-delay: 0.2s;" onclick="window.location.href='menu.html'">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" alt="Mixed Grill" />
+          </div>
+          <div class="menu-card-content">
+            <h3 class="menu-card-title serif-text">Damascus Mixed Grill</h3>
+            <p class="menu-card-desc">A magnificent selection of premium lamb and chicken barbecued to perfection.</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in-up" style="animation-delay: 0.3s;" onclick="window.location.href='menu.html'">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=800&q=80" alt="Shawarma" />
+          </div>
+          <div class="menu-card-content">
+            <h3 class="menu-card-title serif-text">Classic Shawarma</h3>
+            <p class="menu-card-desc">Marinated meat slowly roasted and wrapped in fresh, soft bread.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-block-start: 4rem;">
+        <a href="menu.html" class="btn-secondary">View Full Menu</a>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding">
+      <h2 class="section-title">What Our Guests Say</h2>
+      <div class="grid-cards">
+        <div class="testimonial-card fade-in-up" style="animation-delay: 0.1s; background: var(--card-bg); padding: 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">
+          <div style="color: var(--primary-gold); font-size: 1.5rem; margin-block-end: 1rem;">★★★★★</div>
+          <p style="font-style: italic; color: var(--text-muted); margin-block-end: 1.5rem;">"The most authentic Syrian food in Abu Dhabi. The mixed grill was tender, and the hummus was exactly how my grandmother used to make it. Highly recommended!"</p>
+          <h4 class="serif-text" style="color: var(--primary-red);">— Sarah M.</h4>
+        </div>
+        <div class="testimonial-card fade-in-up" style="animation-delay: 0.2s; background: var(--card-bg); padding: 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">
+          <div style="color: var(--primary-gold); font-size: 1.5rem; margin-block-end: 1rem;">★★★★★</div>
+          <p style="font-style: italic; color: var(--text-muted); margin-block-end: 1.5rem;">"A truly wonderful dining experience. The ambiance inside is beautiful, and the staff are incredibly hospitable. The Fattoush salad was phenomenal."</p>
+          <h4 class="serif-text" style="color: var(--primary-red);">— Ahmed K.</h4>
+        </div>
+        <div class="testimonial-card fade-in-up" style="animation-delay: 0.3s; background: var(--card-bg); padding: 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">
+          <div style="color: var(--primary-gold); font-size: 1.5rem; margin-block-end: 1rem;">★★★★★</div>
+          <p style="font-style: italic; color: var(--text-muted); margin-block-end: 1.5rem;">"I've been looking for good Shawarma in town and Al Dimashqi definitely delivered. Will be bringing all my friends here."</p>
+          <h4 class="serif-text" style="color: var(--primary-red);">— Liam T.</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section-padding bg-light">
+      <h2 class="section-title">The Dimashqi Experience</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Restaurant Ambiance" class="fade-in-up" style="inline-size: 100%; block-size: 250px; object-fit: cover; border-radius: 8px; animation-delay: 0.1s; border: 1px solid var(--border-color);" />
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" alt="Fine Dining" class="fade-in-up" style="inline-size: 100%; block-size: 250px; object-fit: cover; border-radius: 8px; animation-delay: 0.2s; border: 1px solid var(--border-color);" />
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=600&q=80" alt="Chef at Work" class="fade-in-up" style="inline-size: 100%; block-size: 250px; object-fit: cover; border-radius: 8px; animation-delay: 0.3s; border: 1px solid var(--border-color);" />
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" alt="Dining Table" class="fade-in-up" style="inline-size: 100%; block-size: 250px; object-fit: cover; border-radius: 8px; animation-delay: 0.4s; border: 1px solid var(--border-color);" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Al Dimashqi Restaurant | Taste the tradition of Damascus. All Rights Reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
